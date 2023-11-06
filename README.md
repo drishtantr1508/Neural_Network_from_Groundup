@@ -21,8 +21,8 @@ X = np.reshape([[0, 0], [0, 1], [1, 0], [1, 1]], (4, 2, 1))
 Y = np.reshape([[0], [1], [1], [0]], (4, 1, 1))
 
 network = [
-    Dense(2, 3),
-    Tanh(),
+    Dense(2, 3), # First dense layer
+    Tanh(), #applying activation function
     Dense(3, 1),
     Tanh()
 ]
