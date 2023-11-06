@@ -7,6 +7,8 @@ python3 drishtant_main.py
 
 # Example
 
+# This is just and example demo
+
 ```python
 import numpy as np
 
