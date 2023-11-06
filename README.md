@@ -23,7 +23,7 @@ Y = np.reshape([[0], [1], [1], [0]], (4, 1, 1))
 network = [
     Dense(2, 3), # First dense layer
     Tanh(), #applying activation function
-    Dense(3, 1),
+    Dense(3, 1), #second dense layer and output layer
     Tanh()
 ]
 
